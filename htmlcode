@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeFit Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>BeFit Gym</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button name="join"><a href="#price">Join Now</a></button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to BeFit Gym</h1>
+            <p>Your journey to a healthier life starts here.</p>
+            <a href="#services" class="cta">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-content">
+        <div class="service">
+            <h3>Personal Training</h3>
+            <p>Customized training programs tailored to your fitness goals.</p><br>
+            <img src="image/personal trainer.jpg" alt="Personal Trainer">
+        </div>
+        <div class="service">
+            <h3>Group Classes</h3>
+            <p>Join our group classes for a fun and motivating workout.</p><br>
+            <img src="image/group classes.jpg" alt="Group Classes">
+        </div>
+        <div class="service">
+            <h3>Cardio Zone</h3>
+            <p>Access our state-of-the-art cardio equipment to boost your endurance.</p>
+            <img src="image/cardio zone.jpg" alt="Cardio Zone">
+        </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>BeFit Gym is dedicated to helping you achieve your fitness goals in a supportive environment.</p>
+        <img src="image/class-1.jpg">
+    </section>
+
+    <section id="price" class="prices">
+        <h1>Our Pricing Plan</h1>
+        <p>Our pricing plan comes with various membership tietrs, each tailored to cater to different preferences and fitness aspirations.</p>
+        <div class="price-content">
+            <div class="price-c">
+                <h2>Basic Plan</h2>
+                <h1 style="text-align: unset;">$16</h1>
+                <ul type="none">
+                    <li>-Smart Workout Plan</li>
+                    <li>-At home workouts</li>
+                </ul><br><br>
+                <button name="join">Join Now</button>
+            </div>
+            <div class="price-c">
+                <h2>Weekly Plan</h2>
+                <h1 style="text-align: unset;">$25</h1>
+                <ul type="none">
+                    <li>-PRO gyms</li>
+                    <li>-Smart Workout Plan</li>
+                    <li>-At home workouts</li>
+                </ul><br>
+                <button name="join">Join Now</button>
+            </div>
+            <div class="price-c">
+                <h2>Monthly Plan</h2>
+                <h1 style="text-align: unset;">$45</h1>
+                <ul type="none">
+                    <li>-ELITE gyms and classes</li>
+                    <li>-Smart Workout Plan</li>
+                    <li>-At home workouts</li>
+                    <li>-Personal Training</li>
+                </ul>
+                <button name="join">Join Now</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <h2>Contact Us</h2>
+            <p>Visit us at: 123 Fitness Avenue,Gujarat,India</p>
+            <p>Email: info@befitgym.com</p>
+            <p>Phone: +91 6351879155</p>
+        </div>
+    </footer>
+    <div class="bottom">
+        <p>&copy;  All Rights Reserved.</p>
+    </div>
+</body>
+</html># Codsoft_2
